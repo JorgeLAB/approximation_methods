@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/approxmethods/__init__.py
+src/approxmethods/least_squares_simple_linear.py
+src/approxmethods.egg-info/PKG-INFO
+src/approxmethods.egg-info/SOURCES.txt
+src/approxmethods.egg-info/dependency_links.txt
+src/approxmethods.egg-info/requires.txt
+src/approxmethods.egg-info/top_level.txt
