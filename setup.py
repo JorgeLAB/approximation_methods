@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='approximation_methods',
     version='0.1.1',
-    packages=find_packages(),
+    packages=find_packages("src"),
+    package_dir={'': 'src'},
     author='Jorge Borges, Eduardo Freitas, Thaina Barcellos, Josué Fonseca, Lucas Figueiredo',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
