@@ -1,2 +1,2 @@
-# approximation_methods
+# Approximation Methods
 Library with Approximation Methods
