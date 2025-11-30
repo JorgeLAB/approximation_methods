@@ -4,7 +4,7 @@ setup(
     name='approximation_methods',
     version='0.1.0',
     packages=find_packages(),
-    author='Jorge Borges, Eduardo Freitas,Thaina Barcellos, Josué Fonseca, Lucas Figueiredo',
+    author='Jorge Borges, Eduardo Freitas, Thaina Barcellos, Josué Fonseca, Lucas Figueiredo',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/JorgeLAB/approximation_methods',
