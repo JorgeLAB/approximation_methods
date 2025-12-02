@@ -11,9 +11,9 @@ class Lagrange:
         self.y = np.asarray(y_list, dtype=float)
         x_predict = float(x_predict)
 
-        self.coefficients = self._compute_polynomial_coefficients()
+        self.calculated_polynomial = self._compute_polynomial_result()
     
-    def _compute_polynomial_result(self):
+    def _calculate_polynomial(self):
         n = len(self.x)
         result = 0
 
