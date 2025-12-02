@@ -9,9 +9,9 @@ class LeastSquaresSimpleLinear:
 
         self.x = np.array(x, dtype=float)
         self.y = np.array(y, dtype=float)
-        self.coefficients = self.calculate_coefficients()
+        self.coefficients = self._calculate_coefficients()
 
-    def calculate_coefficients(self):
+    def _calculate_coefficients(self):
         sum_x = np.sum(self.x)
         sum_y = np.sum(self.y)
         sum_x_squared = np.sum(self.x ** 2)
